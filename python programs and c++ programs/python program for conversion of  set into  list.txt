@@ -1,0 +1,7 @@
+#creating set
+s = set({1, 2, 3, 4, 5, "pencil", "programmer"})
+print("Set: ", x)
+
+#converting set into list
+l = list(s)
+print("List: ",l)

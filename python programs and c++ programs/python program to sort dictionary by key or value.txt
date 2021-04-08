@@ -1,0 +1,10 @@
+d = {2: 'Python',  1: 'Java', 3: 'C++'}
+
+asc_dict = dict(sorted(d.items()))
+desc_dict = dict(sorted(d.items(), reverse=True))
+
+print("Dictionary sorted in Ascending order by key")
+print(asc_dict)
+
+print("Dictionary sorted in Descending order by key")
+print(desc_dict)
